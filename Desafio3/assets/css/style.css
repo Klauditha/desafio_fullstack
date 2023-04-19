@@ -1,0 +1,23 @@
+.boxes {
+    display: flex;
+    /*justify-content: flex-start;*/
+    /*
+    justify-content: flex-end;
+    justify-content: space-around;
+    */
+    /*Elementos en una unica linea*/
+    /*flex-wrap: nowrap; */
+
+    /*Para galeria*/
+    flex-wrap: wrap;
+}
+
+/*
+.box {
+    width: 25%;
+}
+*/
+
+.box img {
+    max-width: 25%;
+}
