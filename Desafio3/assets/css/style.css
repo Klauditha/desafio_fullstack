@@ -1,121 +1,151 @@
-body {
-    margin: 0;
-    width: 100%;
-    padding: 0;
+html {
+    display: table;
+    margin: auto;
 }
 
-header{
-    /*width: 1280px;*/
+body {
+    width: 1280px;
+    vertical-align: middle;
+    display: table-cell;
+    font-family: 'Raleway', sans-serif;
+}
+
+/*********HEADER*********/
+.header{
     height: 73px;
     padding: 0;
     margin: 0;
     background-color: black;
-    
+    opacity: 1;
+    display: flex;
+    justify-content:center;
 }
-h1 {
-    padding-top: 7px;
-    padding-bottom: 7px;
-    margin: 0 ;
+
+.header__title {
+    
+    margin-top: 7px;
+    margin-bottom: 7px;
     font-family: 'Raleway', sans-serif;
     color:white;
     text-align: center;
     font-size: 50px;
+    opacity: 1;
+    font-weight: 500;
 }
-main {
+
+/*********MAIN*********/
+.main {
     background-color: black;
     margin: 0;
     padding: 0;
 }
 
-#img_principal {
+.main__section__imagen {
     background-image: url("../img/bg-header.jpg");
     background-repeat: no-repeat;
     background-size: 100%;   
-    margin: 0;
     height: 727px;
 }
-#dvDescripcion {
+
+/*********SECCION DESCRIPCION*********/
+.main__section__description {
     height: 348px;
     display: flex;
     justify-content: space-around;
-    padding-top: 45px;
-    padding-bottom: 45px;
 }
-.text_dos{
+
+.main__section__description_txt{
     color: white;
-    padding-left: 150px ;
-    padding-right: 150px ;
+    margin-left: 150px;
+    margin-right: 106px;
     font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    height: 197px;
+    width: 475px;
+    margin-top: 45px;
+    margin-bottom: 66px;
 }
-#img_dos{
+
+.main__section__description_imagen{
     height: 237px;
     width:399px ;
-    padding-right: 150px ;
+    margin-top: 45px;
+    margin-bottom: 66px;
+    margin-right: 150px;
 }
 
-#dvCaracteristicas {
+/*********SECCION CARACTERISTICAS*********/
+.main__section__caracteristicas {
+    padding: 0;
     background-color: #1E1A13;
+    color: white;
     height: 348px;
+    
 }
 
-#text_tres{
+.main__section__caracteristicas__subtitle{
     color: white;
-    padding-top: 75px;
     font-size: 40px;
     text-align: center;
     font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    padding-top: 75px;
 }
 
 nav {
-    color: white;
     font-size: 25px;
     font-family: 'Raleway', sans-serif;
+    font-weight: 300;
     text-align: center;
 }
 
 ul {
     list-style: none;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 li {
     display: inline-block;
     
+    
 }
-.icono{
+.icono {
     width: 57px;
+    
 }
 
-#dvGaleria {
+/*********SECCION GALERIA*********/
+.main_section_galeria {
     background-color:black;
     height: 348px;
     display: flex;
     justify-content: space-around;
-    margin: 0;
-    padding: 0;
 }
 
-#dvGaleria img {
+.main_section_galeria img {
     width: 316px;
     height: 202px;
-    padding-top: 73px;
-    padding-bottom: 73px;
-    margin: 0;
-    
+    margin-top: 73px;
+    margin-bottom: 73px;
 }
-footer
-{    /*width: 1280px;*/
+
+/*********FOOTER*********/
+.footer {   
+    width: 1280px;
     margin: 0;
     padding: 0;
     background-color: #1E1A13;
     color: white ;
     vertical-align: middle;
     height: 102px;
+    opacity: 0.94
 }
-footer p {
+
+.footer__txt {
     margin: 0;
     padding-top: 39px;
     text-align: center;
     font-family: 'Raleway', sans-serif;
+    font-weight: 300;
 }

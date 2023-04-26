@@ -10,26 +10,27 @@
         <script src="https://kit.fontawesome.com/a6a42315af.js" crossorigin="anonymous"></script>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&display=swap" rel="stylesheet">
     </head>
     <body>
-        <header>
-            <h1>IGUANAS</h1>
+        <header class="header">
+            <h1 class="header__title">IGUANAS</h1>
         </header>
-        <main>
-            <div id="img_principal"></div>
-            <div id="dvDescripcion">
-                <div>
-                    <p class="text_dos">La iguana es un reptil perteneciente a la familia Iguanadiae. Su tamaño está entre los 15 cm hasta los 2 metros de largo y puede llegar a pesar unos 15 kg. Cuando están jóvenes tienen una coloración con tonos verdes y al ir madurando predomina un color grisáceo con crestas o espinas en su espalda.</p>
-                    <p class="text_dos">La alimentación de la iguana va variando según su etapa de vida, pero la mayor parte de sus años son herbívoras. Viven en lugares tropicales con mucha vegetación y es un animal que puede ser domesticado.</p>
-                </div>
+        <main class="main">
+            <section class="main__section__imagen"></section>
+            <section class="main__section__description">
+                <section class="main__section__description_txt">
+                    <p>La iguana es un reptil perteneciente a la familia Iguanadiae. Su tamaño está entre los 15 cm hasta los 2 metros de largo y puede llegar a pesar unos 15 kg. Cuando están jóvenes tienen una coloración con tonos verdes y al ir madurando predomina un color grisáceo con crestas o espinas en su espalda.</p>
+                    </br>
+                    <p>La alimentación de la iguana va variando según su etapa de vida, pero la mayor parte de sus años son herbívoras. Viven en lugares tropicales con mucha vegetación y es un animal que puede ser domesticado.</p>
+                </section>
 
-                <div>
-                    <img  id="img_dos" src="./assets/img/iguana-1.jpg" alt="Iguana1"/>
-                </div>
-            </div>
-            <div id="dvCaracteristicas">
-                <h2 id="text_tres">CARACTERISTICAS</h2>
+                <section>
+                    <img  class="main__section__description_imagen" src="./assets/img/iguana-1.jpg" alt="Iguana1"/>
+                </section>
+            </section>
+            <section class="main__section__caracteristicas">
+                <p class="main__section__caracteristicas__subtitle">CARACTERISTICAS</p>
                 <nav>
                     <ul>
                         <li>
@@ -44,21 +45,21 @@
                             <p>Cambian de color</p></li>
                     </ul>
                 </nav>
-            </div>
-        <div id="dvGaleria">
-                <div>
+            </section>
+            <section class="main_section_galeria">
+                <section>
                     <img src="./assets/img/iguana-2.jpg" alt="Iguana2"/>
-                </div>
-                <div>
+                </section>
+                <section>
                     <img src="./assets/img/iguana-3.jpg" alt="Iguana3"/>
-                </div>
-                <div>
+                </section>
+                <section>
                     <img src="./assets/img/iguana-4.jpg" alt="Iguana4"/>
-                </div>
-        </div>
+                </section>
+            </section>
         </main>
-        <footer>
-            <p>Visita https://www.anipedia.net/iguanas/iguana-verde/ para conocer más</p>
+        <footer class="footer">
+            <p class="footer__txt">Visita https://www.anipedia.net/iguanas/iguana-verde/ para conocer más</p>
         </footer>
     </body>
 </html>
