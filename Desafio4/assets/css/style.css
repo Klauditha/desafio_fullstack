@@ -1,0 +1,36 @@
+#menu{
+    /*Fondo verde*/
+    background-color: #28A745;
+    width: 100%;
+    height: 100px;
+}
+
+.item_imagen {
+    background-color: white;
+}
+
+/*Roboto Light 300*/
+.item_texto_superior {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20pt;
+    font-weight: 300;
+    color: #212529;
+    /*font-weight: lighter;*/
+}
+
+.item_texto_inferior {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16pt;
+    font-weight: 300;
+    color:#707070;
+}
+
+.item_texto_ubicacion {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13pt;
+    font-weight: 300;
+    color:#707070;
+}
