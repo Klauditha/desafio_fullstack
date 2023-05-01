@@ -1,41 +1,126 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+.navbar {
+    margin: 0;
+    padding: 0;
+    height: 62px;
+}
+
+/*
 .fondo {
     background-color: #28A745;
+}*/
+
+#menu{
+    width: 100%;
+    height: 62px;
 }
 
 .logo {
     width: 86px;
     height:25px;
+    margin-left: 20px;
+    margin-top: 19px;
+    margin-bottom: 18px;
 }
 
-#menu{
-    /*Fondo verde*/
-    background-color: #28A745;
-    width: 100%;
-    height: 100px;
+
+.tarjeta {
+
+    margin:auto;
+    width: 278px; 
+    height: 379px;
+    margin-top: 18px;
+    margin-bottom: 12px;
 }
 
-/*Roboto Light 300*/
-.item_texto_superior {
-   
+.card-title{
     font-family: 'Roboto', sans-serif;
-    font-size: 20pt;
+    font-size: 20px;
     font-weight: 300;
+    /*
     color: #212529;
-    /*font-weight: lighter;*/
+    */
+}
+.card-text {
+    margin: 0;
+    padding: 0;
+}
+.superior {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    /*color:#707070;*/
+    margin-top: 11px;
+    margin-bottom: 2px;
+}
+small {
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
 }
 
-.item_texto_inferior {
-   
+.text-muted {
+    margin: 0;
+    padding: 0;
     font-family: 'Roboto', sans-serif;
-    font-size: 16pt;
+    font-size: 13px;
     font-weight: 300;
-    color:#707070;
+    /*color:#707070;*/
 }
 
-.item_texto_ubicacion {
- 
+hr {
+   /* color: #707070A0;*/
+    padding: 0;
+    margin-top: 2px;
+    margin-bottom: 0px;
+}
+
+.precio_oferta{
     font-family: 'Roboto', sans-serif;
-    font-size: 13pt;
+    font-size: 20px;
+   /* font-weight: 500; */
+   /* color:#28A745;*/
+    font-weight: bold;
+}
+
+.precio_normal{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
     font-weight: 300;
-    color:#707070;
+    /*color:#707070;*/
+    font-weight: bold;
+}
+
+.formulario{
+    /*background-color: #28A745;
+    color: #FFFFFF;*/
+    margin-top: 47px;
+}
+
+.formulario__titulo {
+    padding-top: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#btnEnviar{
+    /*background-color: #F8F9FA;
+    color: #212529;*/
+    width: 112.71px;
+    height: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 29px;
+}
+.footer__texto{
+    
 }
