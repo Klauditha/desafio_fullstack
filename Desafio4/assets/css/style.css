@@ -2,17 +2,11 @@
     margin:0;
     padding: 0;
 }
-
 .navbar {
     margin: 0;
     padding: 0;
     height: 62px;
 }
-
-/*
-.fondo {
-    background-color: #28A745;
-}*/
 
 #menu{
     width: 100%;
@@ -27,14 +21,17 @@
     margin-bottom: 18px;
 }
 
-
 .tarjeta {
-
     margin:auto;
     width: 278px; 
     height: 379px;
     margin-top: 18px;
     margin-bottom: 12px;
+}
+
+.tarjeta img {
+    width:278px;
+    height:180px;
 }
 
 .card-title{
@@ -104,7 +101,8 @@ hr {
 }
 
 .formulario__titulo {
-    padding-top: 25px;
+    margin-top: 25px;
+    margin-bottom: 15px;
     font-family: 'Roboto', sans-serif;
     font-size: 21px;
     font-weight: bold;
@@ -122,5 +120,7 @@ hr {
     margin-bottom: 29px;
 }
 .footer__texto{
-    
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
 }
